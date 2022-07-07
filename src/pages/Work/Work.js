@@ -7,8 +7,7 @@ import p4 from '../../img/p7.png';
 import p5 from '../../img/p9.png';
 import p6 from '../../img/p10.png';
 import p7 from '../../img/p4.jpg';
-import p8 from '../../img/p7.png';
-import p9 from '../../img/p2.jpg';
+import p8 from '../../img/p2.jpg';
 
 const Work = () => {
   return (
@@ -50,9 +49,9 @@ const Work = () => {
           <img src={p8} alt="project" />
         </div>
 
-        <div className="box">
+        {/* <div className="box">
           <img src={p9} alt="project" />
-        </div>
+        </div> */}
       </div>
     </section>
   );
