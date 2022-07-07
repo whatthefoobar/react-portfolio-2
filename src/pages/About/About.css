@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 2rem;
+}
+.about .image {
+  flex: 1 1 1rem;
+}
+.about .image img {
+  width: 350px;
+  align-items: center;
+  padding: 0.7rem;
+  border: 3px solid #666;
+}
+.about .content {
+  flex: 1 1 40rem;
+}
+.about .content .title {
+  font-size: 4rem;
+  color: #222;
+  text-transform: uppercase;
+}
+.about .content p {
+  color: #666;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  line-height: 2;
+}
+/* .about .btn {
+  width: 140px;
+  height: 45px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #333;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.about .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 5px;
+  height: 100%;
+  background-color: #ffcc0d;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.about .btn:hover::before {
+  width: 102.5%;
+}
+.about .btn:hover {
+  color: #000;
+} */

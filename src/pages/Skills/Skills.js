@@ -3,14 +3,14 @@ import { FaGraduationCap } from 'react-icons/fa';
 
 const Skills = () => {
   return (
-    <section id="education" class="education container">
-      <h1 class="heading">
+    <section id="education" className="education container">
+      <h1 className="heading">
         my <span>education</span>
       </h1>
 
-      <div class="box-container">
-        <div class="box">
-          {/* <i class="fas fa-graduation-cap"></i> */}
+      <div className="box-container">
+        <div className="box">
+          {/* <i className="fas fa-graduation-cap"></i> */}
           <FaGraduationCap className="skills-icon" />
           <span>2016</span>
           <h3>Front End Development</h3>
@@ -21,7 +21,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <FaGraduationCap className="skills-icon" />
           <span>2017</span>
           <h3>Front End Development</h3>
@@ -32,7 +32,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <FaGraduationCap className="skills-icon" />
           <span>2018</span>
           <h3>Front End Development</h3>
@@ -43,7 +43,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <FaGraduationCap className="skills-icon" />
           <span>2019</span>
           <h3>Front End Development</h3>
@@ -54,7 +54,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <FaGraduationCap className="skills-icon" />
           <span>2020</span>
           <h3>Front End Development</h3>
@@ -65,7 +65,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <FaGraduationCap className="skills-icon" />
           <span>2021</span>
           <h3>Front End Development</h3>

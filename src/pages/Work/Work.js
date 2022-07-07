@@ -3,33 +3,33 @@ import p1 from '../../img/1.jpeg';
 
 const Work = () => {
   return (
-    <section id="portfolio" class="portfolio container">
-      <h1 class="heading">
+    <section id="portfolio" className="portfolio container">
+      <h1 className="heading">
         my <span>portfolio</span>
       </h1>
 
-      <div class="box-container">
-        <div class="box">
+      <div className="box-container">
+        <div className="box">
           <img src={p1} alt="project" />
         </div>
 
-        <div class="box">
+        <div className="box">
           <img src={p1} alt="project" />
         </div>
 
-        <div class="box">
+        <div className="box">
           <img src={p1} alt="project" />
         </div>
 
-        <div class="box">
+        <div className="box">
           <img src={p1} alt="project" />
         </div>
 
-        <div class="box">
+        <div className="box">
           <img src={p1} alt="project" />
         </div>
 
-        <div class="box">
+        <div className="box">
           <img src={p1} alt="project" />
         </div>
       </div>

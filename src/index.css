@@ -56,7 +56,7 @@ section {
   margin-left: 100px;
 }
 
-.btn {
+/* .btn {
   padding: 0.7rem 3rem;
   background: #333;
   color: #fff;
@@ -64,10 +64,9 @@ section {
   margin-top: 1rem;
   font-size: 2.2rem;
   border-radius: 5rem;
-}
+} */
 
-.about-icon {
-  /* padding: 0 0.5rem; */
+/* .about-icon {
 
   font-size: 1.8rem;
 }
@@ -75,6 +74,38 @@ section {
 .btn:hover {
   background: var(--yellow);
   color: black;
+} */
+/*all btns styling*/
+.btn {
+  width: 140px;
+  height: 45px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #333;
+  background-color: var(--white);
+  font-weight: 600;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 5px;
+  height: 100%;
+  background-color: #ffcc0d;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.btn:hover::before {
+  width: 102.5%;
+}
+.btn:hover {
+  color: #000;
 }
 
 .heading {
@@ -195,35 +226,6 @@ header .navbar ul li a:hover {
   padding: 1rem 0;
 }
 
-.about .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-}
-
-.about .row .info {
-  flex: 1 1 48rem;
-  padding: 2rem 1rem;
-  padding-left: 6rem;
-}
-
-.about .row .info h3 {
-  font-size: 2rem;
-  color: var(--yellow);
-  padding: 1rem 0;
-  font-weight: normal;
-}
-
-.about .row .info h3 span {
-  color: #eee;
-  padding: 0 0.5rem;
-}
-.about p {
-  margin-top: 60px;
-  font-size: 1.6rem;
-}
 .education .box-container {
   display: flex;
   align-items: center;
@@ -422,10 +424,6 @@ header .navbar ul li a:hover {
 
   .heading {
     margin: 0 3rem;
-  }
-
-  .about .row .counter .box {
-    width: 100%;
   }
 
   .education .box-container .box {

@@ -30,7 +30,7 @@ i {
   font-size: 2.6rem;
 }
 .scene {
-  width: 80px;
+  width: 90px;
   height: 80px;
 }
 
@@ -43,7 +43,7 @@ i {
   transform-origin: 0 0;
 }
 .box p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .scene:hover .box {

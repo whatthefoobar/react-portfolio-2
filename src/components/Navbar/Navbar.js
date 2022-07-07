@@ -11,71 +11,71 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
-        <li class="scene">
-          <Link to="/" class="link active">
-            <div class="box">
-              <div class="front face">
-                {/* <i class="fa-solid fa-house center"></i> */}
+        <li className="scene">
+          <Link to="/" className="link active">
+            <div className="box">
+              <div className="front face">
+                {/* <i className="fa-solid fa-house center"></i> */}
                 <BsFillHouseFill className="center" />
               </div>
-              <div class="right face">
-                <p class="text center">Home</p>
+              <div className="right face">
+                <p className="text center">Home</p>
               </div>
             </div>
           </Link>
         </li>
 
-        <li class="scene">
+        <li className="scene">
           <Link to="/about">
-            <div class="box">
-              <div class="front face">
-                {/* <i class="fa-solid fa-user center"></i> */}
+            <div className="box">
+              <div className="front face">
+                {/* <i className="fa-solid fa-user center"></i> */}
                 <FaUser className="center" />
               </div>
-              <div class="right face">
-                <p class="text center">About</p>
+              <div className="right face">
+                <p className="text center">About</p>
               </div>
             </div>
           </Link>
         </li>
 
-        <li class="scene">
+        <li className="scene">
           <Link to="/skills">
-            <div class="box">
-              <div class="front face">
-                {/* <i class="fa-solid fa-school center"></i> */}
+            <div className="box">
+              <div className="front face">
+                {/* <i className="fa-solid fa-school center"></i> */}
                 <BsTools className="center" />
               </div>
-              <div class="right face">
-                <p class="text center">Skills</p>
+              <div className="right face">
+                <p className="text center">Skills</p>
               </div>
             </div>
           </Link>
         </li>
 
-        <li class="scene">
+        <li className="scene">
           <Link to="/work">
-            <div class="box">
-              <div class="front face">
-                {/* <i class="fa-solid fa-briefcase center"></i> */}
+            <div className="box">
+              <div className="front face">
+                {/* <i className="fa-solid fa-briefcase center"></i> */}
                 <FaBriefcase className="center" />
               </div>
-              <div class="right face">
-                <p class="text center">Work</p>
+              <div className="right face">
+                <p className="text center">Work</p>
               </div>
             </div>
           </Link>
         </li>
 
-        <li class="scene">
-          <Link to="/contact" class="link active">
-            <div class="box">
-              <div class="front face">
-                {/* <i class="fa-solid fa-envelope-open-text center"></i> */}
+        <li className="scene">
+          <Link to="/contact" className="link active">
+            <div className="box">
+              <div className="front face">
+                {/* <i className="fa-solid fa-envelope-open-text center"></i> */}
                 <FaEnvelopeOpenText className="center" />
               </div>
-              <div class="right face">
-                <p class="text center">Contact</p>
+              <div className="right face">
+                <p className="text center">Contact</p>
               </div>
             </div>
           </Link>
