@@ -76,7 +76,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="box">
+        {/* <div className="box">
           <FaGraduationCap className="skills-icon" />
           <span>2022</span>
           <h3>Front End Development</h3>
@@ -85,7 +85,7 @@ const Skills = () => {
             quos alias praesentium. Id autem provident laborum quae, distinctio
             eaque temporibus!
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
