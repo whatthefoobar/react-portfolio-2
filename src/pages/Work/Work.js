@@ -1,4 +1,5 @@
 import React from 'react';
+import './Work.css';
 import p1 from '../../img/1.jpeg';
 
 const Work = () => {

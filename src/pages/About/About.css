@@ -9,7 +9,7 @@
   flex: 1 1 1rem;
 }
 .about .image img {
-  width: 350px;
+  max-width: 350px;
   align-items: center;
   padding: 0.7rem;
   border: 3px solid #666;
