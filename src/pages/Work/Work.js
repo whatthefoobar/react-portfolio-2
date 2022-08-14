@@ -8,8 +8,11 @@ import p5 from '../../img/p9.png';
 import p6 from '../../img/p10.png';
 import p7 from '../../img/p4.jpg';
 import p8 from '../../img/p2.jpg';
+import ProjectCard from '../../components/ProjectCard';
 
 const Work = () => {
+  const projects = [p1, p2, p3, p4, p5, p6, p7, p8];
+
   return (
     <section id="portfolio" className="portfolio container">
       <h1 className="heading">
@@ -17,41 +20,9 @@ const Work = () => {
       </h1>
 
       <div className="box-container">
-        <div className="box">
-          <img src={p1} alt="project" />
-        </div>
-
-        <div className="box">
-          <img src={p2} alt="project" />
-        </div>
-
-        <div className="box">
-          <img src={p3} alt="project" />
-        </div>
-
-        <div className="box">
-          <img src={p4} alt="project" />
-        </div>
-
-        <div className="box">
-          <img src={p5} alt="project" />
-        </div>
-
-        <div className="box">
-          <img src={p6} alt="project" />
-        </div>
-
-        <div className="box">
-          <img src={p7} alt="project" />
-        </div>
-
-        <div className="box">
-          <img src={p8} alt="project" />
-        </div>
-
-        {/* <div className="box">
-          <img src={p9} alt="project" />
-        </div> */}
+        {projects.map((project, index) => (
+          <ProjectCard project={project} index={index} />
+        ))}
       </div>
     </section>
   );

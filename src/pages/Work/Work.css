@@ -1,19 +1,27 @@
 .portfolio .box-container {
+  margin-top: 40px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+/* .portfolio .box-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
-}
+} */
 
-.portfolio .box-container .box {
+/* .portfolio .box-container .box {
   height: 20rem;
   width: 26rem;
   border-radius: 1rem;
   margin: 2rem;
   overflow: hidden;
   cursor: pointer;
-}
+} */
 
 .portfolio .box-container .box img {
   height: 100%;
@@ -22,5 +30,5 @@
 }
 
 .portfolio .box-container .box:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
