@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../components/Card/Card';
+
 import './Contact.css';
 
 const Contact = () => {
@@ -10,8 +10,7 @@ const Contact = () => {
       </h1>
 
       <div className="row">
-        <Card />
-        {/* <div className="content">
+        <div className="content">
           <h3 className="title">Contact info</h3>
 
           <div className="info">
@@ -28,7 +27,7 @@ const Contact = () => {
               <i className="fas fa-map-marker-alt"></i> Stockholm, Sweden.
             </h3>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
