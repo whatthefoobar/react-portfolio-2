@@ -4,7 +4,8 @@ Preview so far:
 
 ![prev2](https://user-images.githubusercontent.com/69626975/184633958-9ed470d0-82cc-4b38-bd6d-377aed142703.PNG)
 
-![prev3](https://user-images.githubusercontent.com/69626975/184633967-e74b3295-4e2f-408e-82c0-7ba48256cc0a.PNG)
+![prev3](https://user-images.githubusercontent.com/69626975/184634433-a173937a-da88-4a9e-a9e8-82b351dd536c.PNG)
+
 
 
 # Getting Started with Create React App
