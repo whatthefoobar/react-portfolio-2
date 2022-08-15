@@ -8,7 +8,7 @@ import p5 from '../../img/p9.png';
 import p6 from '../../img/p10.png';
 import p7 from '../../img/p4.jpg';
 import p8 from '../../img/p2.jpg';
-import ProjectCard from '../../components/ProjectCard';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 const Work = () => {
   const projects = [p1, p2, p3, p4, p5, p6, p7, p8];
