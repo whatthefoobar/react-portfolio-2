@@ -3,7 +3,7 @@ import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
   const { name, image, description, code, preview } = project;
-  console.log(image);
+
   return (
     <div className="box card">
       <div className="card-image">

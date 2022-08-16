@@ -30,7 +30,7 @@ const Work = () => {
       preview: 'https://shop-mern-project.herokuapp.com/',
     },
     {
-      name: 'Lorem3',
+      name: 'Movie app',
       image: [p3],
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
@@ -38,7 +38,7 @@ const Work = () => {
       preview: 'https://shop-mern-project.herokuapp.com/',
     },
     {
-      name: 'Lorem4',
+      name: '50 projects gallery',
       image: [p4],
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
@@ -46,7 +46,7 @@ const Work = () => {
       preview: 'https://shop-mern-project.herokuapp.com/',
     },
     {
-      name: 'Lorem5',
+      name: 'LinkedIn clone',
       image: [p5],
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
@@ -54,7 +54,7 @@ const Work = () => {
       preview: 'https://shop-mern-project.herokuapp.com/',
     },
     {
-      name: 'Lorem6',
+      name: 'Google Clone',
       image: [p6],
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
@@ -62,7 +62,7 @@ const Work = () => {
       preview: 'https://shop-mern-project.herokuapp.com/',
     },
     {
-      name: 'Lorem7',
+      name: 'Caves game',
       image: [p7],
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
@@ -70,7 +70,7 @@ const Work = () => {
       preview: 'https://shop-mern-project.herokuapp.com/',
     },
     {
-      name: 'Lorem8',
+      name: 'Zodiac form app',
       image: [p8],
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
