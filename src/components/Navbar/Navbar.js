@@ -9,7 +9,7 @@ import { FaEnvelopeOpenText } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="fixed">
       <ul>
         <li className="scene">
           <Link to="/" className="link active">
