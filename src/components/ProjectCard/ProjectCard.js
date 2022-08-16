@@ -1,26 +1,27 @@
 import React from 'react';
 import './ProjectCard.css';
 
-const ProjectCard = ({ project, index }) => {
-  console.log(project);
+const ProjectCard = ({ project }) => {
+  const { name, image, description, code, preview } = project;
+  console.log(image);
   return (
-    <div className="box card" key={index}>
+    <div className="box card">
       <div className="card-image">
-        <img src={project} alt="portfolio card" />
+        <img src={image} alt="portfolio card" />
       </div>
       <div className="card-content">
-        <div className="card-title">Card Hover Animation</div>
-        <div className="card-subtitle">HTML and CSS (Animation)</div>
+        <div className="card-title">{name}</div>
+
         <div className="bottom">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laudantium, molestiae. Sint, laborum vel. Doloremque nesciunt a ad
-            nulla officia deleniti rerum id aut harum possimus tempore,
-            voluptatibus illum, repellat consectetur?
-          </p>
+          <p>{description}</p>
           <div className="buttons">
-            <button>Code</button>
-            <button>Preview</button>
+            <a href={code}>
+              <button>Code</button>
+            </a>
+
+            <a href={preview}>
+              <button>Preview</button>
+            </a>
           </div>
         </div>
       </div>

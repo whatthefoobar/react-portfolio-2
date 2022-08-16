@@ -8,10 +8,76 @@ import p5 from '../../img/p9.png';
 import p6 from '../../img/p10.png';
 import p7 from '../../img/p4.jpg';
 import p8 from '../../img/p2.jpg';
+
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 const Work = () => {
-  const projects = [p1, p2, p3, p4, p5, p6, p7, p8];
+  const projects = [
+    {
+      name: 'Ecommerce app',
+      image: [p1],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+    {
+      name: 'News app',
+      image: [p2],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+    {
+      name: 'Lorem3',
+      image: [p3],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+    {
+      name: 'Lorem4',
+      image: [p4],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+    {
+      name: 'Lorem5',
+      image: [p5],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+    {
+      name: 'Lorem6',
+      image: [p6],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+    {
+      name: 'Lorem7',
+      image: [p7],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+    {
+      name: 'Lorem8',
+      image: [p8],
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.',
+      code: 'https://github.com/whatthefoobar/ecomm-app-project',
+      preview: 'https://shop-mern-project.herokuapp.com/',
+    },
+  ];
 
   return (
     <section id="portfolio" className="portfolio container">
@@ -21,7 +87,7 @@ const Work = () => {
 
       <div className="box-container">
         {projects.map((project, index) => (
-          <ProjectCard project={project} index={index} />
+          <ProjectCard project={project} key={index} />
         ))}
       </div>
     </section>
