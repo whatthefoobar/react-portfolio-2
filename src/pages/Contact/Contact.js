@@ -1,6 +1,8 @@
 import React from 'react';
-
 import './Contact.css';
+import { FaGithub } from 'react-icons/fa';
+import { FaMailBulk } from 'react-icons/fa';
+import { BsLinkedin } from 'react-icons/bs';
 
 const Contact = () => {
   return (
@@ -11,21 +13,33 @@ const Contact = () => {
 
       <div className="row">
         <div className="content">
-          <h3 className="title">Contact info</h3>
+          <p className="contact-text">
+            If I'm not tinkering at something I do make sure to check my email
+            and socials so If you like what you see, don't be a stranger. Drop
+            me a line and let's collaborate.
+          </p>
 
           <div className="info">
-            <h3 className="email">
-              <i className="fas fa-envelope"></i> irina.mntn@gmail.com
-            </h3>
-            <h3>
-              <i className="fas fa-phone"></i> +123-456-7890
-            </h3>
-            <h3>
-              <i className="fas fa-phone"></i> +111-222-3333
-            </h3>
-            <h3>
-              <i className="fas fa-map-marker-alt"></i> Stockholm, Sweden.
-            </h3>
+            <div class="box">
+              <a href="https://github.com/whatthefoobar">
+                <FaGithub className="contact-social" />
+                <h3>Github</h3>
+              </a>
+            </div>
+
+            <div class="box">
+              <a href="mailto:irina.mntn@gmail.com">
+                <FaMailBulk className="contact-social" />
+                <h3>Email</h3>
+              </a>
+            </div>
+
+            <div class="box">
+              <a href="https://www.linkedin.com/in/irina-munteanu-b%C3%A4ck-523a41b4/">
+                <BsLinkedin className="contact-social" />
+                <h3>LinkedIn</h3>
+              </a>
+            </div>
           </div>
         </div>
       </div>

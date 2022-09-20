@@ -11,53 +11,40 @@
   padding-bottom: 0;
 }
 
-.contact .row form {
-  flex: 1 1 45rem;
-  padding: 2rem;
-  margin: 2rem;
-  margin-bottom: 4rem;
+.contact .info {
+  margin-bottom: 12rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+.contact .info .box {
+  padding: 3rem 2rem;
+  border: 0.2rem solid #333;
+  text-align: center;
+}
+.contact .info .box .contact-social {
+  font-size: 2.5rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  color: white;
+  background-color: #333;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.contact .row form .box {
-  padding: 1.5rem;
-  margin: 1rem 0;
-  background: #3333;
-  color: #fff;
-  text-transform: none;
-  font-size: 1.7rem;
-  width: 100%;
+.contact .info .box h3 {
+  margin: 1.5rem 0;
+  font-size: 2.5rem;
+  color: #333;
 }
 
-.contact .row form .box::placeholder {
-  text-transform: capitalize;
-}
-
-.contact .row form .message {
-  height: 15rem;
-  resize: none;
-}
-
-.contact .row .content .title {
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 3rem;
-  padding-bottom: 2rem;
-}
-
-.contact .row .content .info h3 {
-  display: flex;
-  align-items: center;
+.contact .info .box p {
   font-size: 2rem;
-  font-weight: 600;
-  color: var(--dark);
-  padding: 1rem 0;
-  font-weight: normal;
+  text-transform: none;
 }
-
-.contact .row .content .info h3 i {
-  padding-right: 1rem;
-  color: var(--yellow);
-}
-.contact .mail {
-  text-transform: lowercase;
+.contact-text {
+  font-size: 2rem;
 }

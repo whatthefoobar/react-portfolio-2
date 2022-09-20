@@ -1,91 +1,56 @@
 import React from 'react';
-import { FaGraduationCap } from 'react-icons/fa';
+import { FaTools } from 'react-icons/fa';
+import { HiUserGroup } from 'react-icons/hi';
+import { RiCodeBoxFill } from 'react-icons/ri';
 import './Skills.css';
 
 const Skills = () => {
   return (
     <section className="education container">
       <h1 className="heading">
-        my <span>education</span>
+        my <span>Skills</span>
       </h1>
 
       <div className="box-container">
         <div className="box">
-          <FaGraduationCap className="skills-icon" />
-          <span>2016</span>
+          <RiCodeBoxFill className="skills-icon" />
+          <span>Development</span>
           <h3>Front End Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quos alias praesentium. Id autem provident laborum quae, distinctio
-            eaque temporibus!
-          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>React</li>
+          </ul>
         </div>
 
         <div className="box">
-          <FaGraduationCap className="skills-icon" />
-          <span>2017</span>
-          <h3>Front End Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quos alias praesentium. Id autem provident laborum quae, distinctio
-            eaque temporibus!
-          </p>
+          <FaTools className="skills-icon" />
+          <span>Tools</span>
+          <h3>Tools</h3>
+          <ul>
+            <li>SASS</li>
+            <li>MongoDB</li>
+            <li>EXPRESS</li>
+            <li>Firebase</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
+          </ul>
         </div>
 
         <div className="box">
-          <FaGraduationCap className="skills-icon" />
-          <span>2018</span>
+          <HiUserGroup className="skills-icon" />
+          <span>Soft Skills</span>
           <h3>Front End Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quos alias praesentium. Id autem provident laborum quae, distinctio
-            eaque temporibus!
-          </p>
+          <ul>
+            <li>Curiosity</li>
+            <li>Time management</li>
+            <li>Problem solving</li>
+            <li>Critical thinking</li>
+            <li>Communication</li>
+          </ul>
         </div>
-
-        <div className="box">
-          <FaGraduationCap className="skills-icon" />
-          <span>2019</span>
-          <h3>Front End Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quos alias praesentium. Id autem provident laborum quae, distinctio
-            eaque temporibus!
-          </p>
-        </div>
-
-        <div className="box">
-          <FaGraduationCap className="skills-icon" />
-          <span>2020</span>
-          <h3>Front End Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quos alias praesentium. Id autem provident laborum quae, distinctio
-            eaque temporibus!
-          </p>
-        </div>
-
-        <div className="box">
-          <FaGraduationCap className="skills-icon" />
-          <span>2021</span>
-          <h3>Front End Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quos alias praesentium. Id autem provident laborum quae, distinctio
-            eaque temporibus!
-          </p>
-        </div>
-
-        {/* <div className="box">
-          <FaGraduationCap className="skills-icon" />
-          <span>2022</span>
-          <h3>Front End Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quos alias praesentium. Id autem provident laborum quae, distinctio
-            eaque temporibus!
-          </p>
-        </div> */}
       </div>
     </section>
   );

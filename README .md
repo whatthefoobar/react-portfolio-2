@@ -1,14 +1,3 @@
-Ongoing UI change:
-Preview so far:
-![prev1](https://user-images.githubusercontent.com/69626975/184633932-d70a2996-80fe-4a18-a36a-07c65596323b.PNG)
-
-![prev2](https://user-images.githubusercontent.com/69626975/184633958-9ed470d0-82cc-4b38-bd6d-377aed142703.PNG)
-
-![prev3](https://user-images.githubusercontent.com/69626975/184833450-eeb99f3c-c104-4f91-9b0c-0116c1d0542d.PNG)
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
