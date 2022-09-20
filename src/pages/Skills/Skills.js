@@ -22,6 +22,12 @@ const Skills = () => {
             <li>JavaScript</li>
             <li>Node.js</li>
             <li>React</li>
+            <li>Firebase</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
+            <li>SASS</li>
+            <li>MongoDB</li>
+            <li>EXPRESS</li>
           </ul>
         </div>
 
@@ -30,12 +36,11 @@ const Skills = () => {
           <span>Tools</span>
           <h3>Tools</h3>
           <ul>
-            <li>SASS</li>
-            <li>MongoDB</li>
-            <li>EXPRESS</li>
-            <li>Firebase</li>
-            <li>Bootstrap</li>
-            <li>Material UI</li>
+            <li>VSCode</li>
+            <li>Figma</li>
+            <li>Git & Github</li>
+            <li>Netlify</li>
+            <li>Heroku</li>
           </ul>
         </div>
 
