@@ -79,7 +79,7 @@ const Work = () => {
       preview: 'https://hi-portfolio-page.netlify.app/',
     },
     {
-      name: 'Zodiac form app',
+      name: 'Zodiac killer buddy',
       image: [p8],
       description:
         'A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. For this i used a simple Node webscraper to get a killer for each zodiac sign. Queries are stored with localStorage.',
