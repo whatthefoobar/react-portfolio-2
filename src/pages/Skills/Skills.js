@@ -1,8 +1,8 @@
-import React from 'react';
-import { FaTools } from 'react-icons/fa';
-import { HiUserGroup } from 'react-icons/hi';
-import { RiCodeBoxFill } from 'react-icons/ri';
-import './Skills.css';
+import React from "react";
+import { FaTools } from "react-icons/fa";
+import { HiUserGroup } from "react-icons/hi";
+import { RiCodeBoxFill } from "react-icons/ri";
+import "./Skills.css";
 
 const Skills = () => {
   return (
@@ -20,6 +20,7 @@ const Skills = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>Node.js</li>
             <li>React</li>
             <li>Firebase</li>
@@ -27,7 +28,7 @@ const Skills = () => {
             <li>Material UI</li>
             <li>SASS</li>
             <li>MongoDB</li>
-            <li>EXPRESS</li>
+            <li>EXPRESS.js</li>
           </ul>
         </div>
 
@@ -38,6 +39,7 @@ const Skills = () => {
           <ul>
             <li>VSCode</li>
             <li>Figma</li>
+            <li>Canva</li>
             <li>Git & Github</li>
             <li>Netlify</li>
             <li>Heroku</li>
@@ -54,6 +56,7 @@ const Skills = () => {
             <li>Problem solving</li>
             <li>Critical thinking</li>
             <li>Communication</li>
+            <li>Conflict resolution</li>
           </ul>
         </div>
       </div>
