@@ -24,8 +24,6 @@ const Skills = () => {
             <li>Node.js</li>
             <li>React</li>
             <li>Firebase</li>
-            <li>Bootstrap</li>
-            <li>Material UI</li>
             <li>SASS</li>
             <li>MongoDB</li>
             <li>EXPRESS.js</li>
@@ -43,6 +41,8 @@ const Skills = () => {
             <li>Git & Github</li>
             <li>Netlify</li>
             <li>Heroku</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
           </ul>
         </div>
 
