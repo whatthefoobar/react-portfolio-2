@@ -20,7 +20,7 @@ const Work = () => {
       description:
         'A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer',
       code: 'https://github.com/whatthefoobar/ecomm-app-project',
-      preview: 'https://shop-mern-project.herokuapp.com/',
+      preview: 'https://ecomm-app-project-frontend.onrender.com/',
     },
     {
       name: 'React news app',
