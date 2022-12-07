@@ -17,7 +17,7 @@ const Work = () => {
   const projects = [
     {
       name: "MERN print shop",
-      image: [p1],
+      image: [p0],
       description:
         "A print shop with a cart authentication and checkout option. state management done with redux",
       code: "https://github.com/whatthefoobar/galleria_shop",
