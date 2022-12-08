@@ -36,7 +36,7 @@ const Work = () => {
       name: "Movie app",
       image: [p3],
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum repellat aliquam voluptates cum beatae ratione officiis, deserunt unde culpa.",
+        "A simple react movie rendering app using TheMovieDB api for the data.",
       code: "https://github.com/whatthefoobar/react-movie-app",
       preview: "https://react-movie-app-tmd.netlify.app/",
     },
