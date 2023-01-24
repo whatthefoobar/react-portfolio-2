@@ -26,7 +26,9 @@ const About = () => {
             solutions to unique problems all the while keeping me humble and
             focused on a goal that does not have a clear timeline.
           </p>
-          <button className="btn">Learn more</button>
+          <button className="btn">
+             <a href="https://github.com/whatthefoobar">Learn more</a>
+          </button>
         </div>
       </div>
     </section>
