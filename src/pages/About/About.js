@@ -16,15 +16,8 @@ const About = () => {
         <div className="content">
           {/* <h3 className="title">I am a developer</h3> */}
           <p>
-            “A jack of all trades is a master of none, but oftentimes better
-            than a master of one.” I like this saying because it best describes
-            my approach to learning. Often a cliché, I do consider myself a
-            life-time learner, after studying economics and psychology and
-            working in customer oriented jobs I decided to finally bite the
-            bullet and take on potentially the biggest challenge I had so far :
-            get into frontend development. Coding challenges me to find
-            solutions to unique problems all the while keeping me humble and
-            focused on a goal that does not have a clear timeline.
+            “I will not say I failed 1000 times, I will say that I discovered there
+        are 1000 ways that can cause failure.” is my favorite quote as I do believe in learning through failure as the best teacher. To better learn I believe I need to let go of fears that don't serve me and fear of rejection is one of them. So by all means reject me but tell me why so I can learn and improve.
           </p>
           <button className="btn">
              <a href="https://github.com/whatthefoobar">Learn more</a>
