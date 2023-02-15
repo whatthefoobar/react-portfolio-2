@@ -10,6 +10,8 @@ import p6 from "../../img/p10.png";
 import p7 from "../../img/p4.jpg";
 import p8 from "../../img/p2.jpg";
 import p9 from "../../img/p11.png";
+import p10 from "../../img/p12.png";
+import p11 from "../../img/p13.png";
 
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
@@ -31,6 +33,21 @@ const Work = () => {
         "React news app project using New York Times Api. My first real chance to apply my React skills and navigate using a public API in the context of React.",
       code: "https://github.com/whatthefoobar/hi-react-news-app",
       preview: "https://news-app-react-hi-project.netlify.app",
+    },
+    {
+      name: "Eco sustainability blog",
+      image: [p10],
+      description: "A MERN blog project.",
+      code: "https://github.com/whatthefoobar/react-blog",
+      preview: "react-blog-frontend.onrender.com/",
+    },
+    {
+      name: "MERN shopping app",
+      image: [p1],
+      description:
+        "A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer",
+      code: "https://github.com/whatthefoobar/ecomm-app-project",
+      preview: "https://ecomm-app-project-frontend.onrender.com/",
     },
     {
       name: "Movie app",
@@ -81,13 +98,14 @@ const Work = () => {
       preview: "https://hi-portfolio-page.netlify.app/",
     },
     {
-      name: "MERN shopping app",
-      image: [p1],
+      name: "React portfolio page",
+      image: [p11],
       description:
-        "A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer",
-      code: "https://github.com/whatthefoobar/ecomm-app-project",
-      preview: "https://ecomm-app-project-frontend.onrender.com/",
+        "Simple straightforward react poortfolio using my favorite color palette.",
+      code: "https://github.com/whatthefoobar/react-portfolio",
+      preview: "https://hi-react-portfolio.netlify.app/",
     },
+
     {
       name: "Zodiac killer buddy",
       image: [p8],
