@@ -73,7 +73,7 @@
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 17px;
-  background-color: #ffcc0d;
+  background-color: var(--yellow);
   color: #333;
   font-weight: 800;
   border: none;
