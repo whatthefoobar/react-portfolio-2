@@ -23,11 +23,17 @@
   text-transform: uppercase;
 }
 .about .content p {
-  color: #666;
+  color: #333;
   font-size: 1.8rem;
+  font-weight: 500;
   padding: 1rem 0;
   line-height: 2;
 }
+.about .btn::before,
+.about .btn {
+  color: #333;
+}
+
 /* .about .btn {
   width: 140px;
   height: 45px;
