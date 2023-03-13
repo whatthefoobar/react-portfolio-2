@@ -39,7 +39,7 @@ const Work = () => {
       image: [p10],
       description: "A MERN blog project.",
       code: "https://github.com/whatthefoobar/react-blog",
-      preview: "react-blog-frontend.onrender.com/",
+      preview: "https://react-blog-frontend.onrender.com/",
     },
     {
       name: "MERN shopping app",
