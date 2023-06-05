@@ -1,5 +1,5 @@
 # react-portfolio-2
-playing around with the design of a portfolio page in react (in progress)
+updated to react portfolio with typescript built with vite insteadof create-react-app
 
 Preview of the design:
 
