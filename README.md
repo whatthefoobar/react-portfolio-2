@@ -1,3 +1,6 @@
+to do:
+- shrink nav menu on small screens
+  
 # react-portfolio-2
 updated to react portfolio with typescript built with vite insteadof create-react-app
 
