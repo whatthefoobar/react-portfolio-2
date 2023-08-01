@@ -19,6 +19,7 @@
 .home h1 span {
   color: var(--yellow);
   background-color: var(--dark);
+  margin-top: 2rem;
   padding: 5px 10px;
 }
 
