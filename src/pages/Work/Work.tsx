@@ -100,7 +100,7 @@ const projects: IProject[] = [
     name: "React portfolio page",
     image: [p11],
     description:
-      "Simple straightforward react poortfolio using my favorite color palette.",
+      "Simple straightforward react portfolio using my favorite color palette.",
     code: "https://github.com/whatthefoobar/react-portfolio",
     preview: "https://hi-react-portfolio.netlify.app/",
   },
