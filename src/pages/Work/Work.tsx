@@ -3,7 +3,7 @@ import p0 from "../../assets/img/p0.png";
 import p1 from "../../assets/img/p6.png";
 import p2 from "../../assets/img/p3.jpg";
 import p3 from "../../assets/img/p5.png";
-import p4 from "../../assets/img/p7.png";
+// import p4 from "../../assets/img/p7.png";
 // import p5 from "../../assets/img/p9.png";
 // import p6 from "../../assets/img/p10.png";
 import p7 from "../../assets/img/p4.jpg";
@@ -56,14 +56,14 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/react-movie-app",
     preview: "https://react-movie-app-tmd.netlify.app/",
   },
-  {
-    name: "50 projects gallery",
-    image: [p4],
-    description:
-      "A personal challenge to code a small project everyday for 50 days. Requirements can useCSS HTML and JavaScript, animations and optionally libraries.",
-    code: "https://github.com/whatthefoobar/50daysofcode-project-gallery",
-    preview: "https://50dayofcode-project-gallery.netlify.app/",
-  },
+  // {
+  //   name: "50 projects gallery",
+  //   image: [p4],
+  //   description:
+  //     "A personal challenge to code a small project everyday for 50 days. Requirements can useCSS HTML and JavaScript, animations and optionally libraries.",
+  //   code: "https://github.com/whatthefoobar/50daysofcode-project-gallery",
+  //   preview: "https://50dayofcode-project-gallery.netlify.app/",
+  // },
   // {
   //   name: "LinkedIn clone",
   //   image: [p5],
