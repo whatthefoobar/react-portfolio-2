@@ -22,7 +22,7 @@ const projects: IProject[] = [
     description:
       "A print shop with a cart authentication and checkout option. state management done with redux",
     code: "https://github.com/whatthefoobar/galleria_shop",
-    preview: "https://galleria-frontend.onrender.com/",
+    preview: "galleria-cyy5.onrender.com",
   },
 
   {
