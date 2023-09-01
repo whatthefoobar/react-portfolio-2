@@ -1,24 +1,23 @@
 import "./Work.css";
-import p0 from "../../assets/img/p0.png";
-import p1 from "../../assets/img/p6.png";
-import p2 from "../../assets/img/p3.jpg";
-import p3 from "../../assets/img/p5.png";
-// import p4 from "../../assets/img/p7.png";
-// import p5 from "../../assets/img/p9.png";
-// import p6 from "../../assets/img/p10.png";
-import p7 from "../../assets/img/p4.jpg";
-import p8 from "../../assets/img/p2.jpg";
-import p9 from "../../assets/img/p11.png";
-import p10 from "../../assets/img/p12.png";
-import p11 from "../../assets/img/p13.png";
-import p12 from "../../assets/img/p14.png";
+import p1 from "../../assets/img/p1.png";
+import p2 from "../../assets/img/p2.jpg";
+import p3 from "../../assets/img/p3.png";
+import p4 from "../../assets/img/p4.png";
+import p5 from "../../assets/img/p5.png";
+import p6 from "../../assets/img/p6.jpg";
+import p7 from "../../assets/img/p7.png";
+import p8 from "../../assets/img/p8.png";
+import p9 from "../../assets/img/p9.jpg";
+import p10 from "../../assets/img/p10.png";
+import p11 from "../../assets/img/p11.png";
+
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { IProject } from "../../types/types";
 
 const projects: IProject[] = [
   {
     name: "MERN print shop",
-    image: [p0],
+    image: [p1],
     description:
       "A print shop with a cart authentication and checkout option. state management done with redux",
     code: "https://github.com/whatthefoobar/galleria_shop",
@@ -35,14 +34,14 @@ const projects: IProject[] = [
   },
   {
     name: "Eco sustainability blog",
-    image: [p10],
+    image: [p3],
     description: "A MERN blog project.",
     code: "https://github.com/whatthefoobar/react-blog",
     preview: "https://react-blog-frontend.onrender.com/",
   },
   {
     name: "MERN shopping app",
-    image: [p1],
+    image: [p4],
     description:
       "A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer",
     code: "https://github.com/whatthefoobar/ecomm-app-project",
@@ -50,7 +49,7 @@ const projects: IProject[] = [
   },
   {
     name: "Movie app",
-    image: [p3],
+    image: [p5],
     description:
       "A simple react movie rendering app using TheMovieDB api for the data.",
     code: "https://github.com/whatthefoobar/react-movie-app",
@@ -82,7 +81,7 @@ const projects: IProject[] = [
   // },
   {
     name: "RPG Caves game",
-    image: [p7],
+    image: [p6],
     description:
       "A top-down RPG style game built with Phaser, the concept inspired by Squid Games requires the player to select between caves, some of which are safe, others lead to player death.",
     code: "https://github.com/whatthefoobar/PhaserGame-RPG-Caves",
@@ -90,7 +89,7 @@ const projects: IProject[] = [
   },
   {
     name: "Portfolio page",
-    image: [p9],
+    image: [p7],
     description:
       "A simple vanilla JS portfolio page using tabs to navigate from section to section",
     code: "https://github.com/whatthefoobar/portfolio-landing-page",
@@ -98,7 +97,7 @@ const projects: IProject[] = [
   },
   {
     name: "React portfolio page",
-    image: [p11],
+    image: [p8],
     description:
       "Simple straightforward react portfolio using my favorite color palette.",
     code: "https://github.com/whatthefoobar/react-portfolio",
@@ -107,7 +106,7 @@ const projects: IProject[] = [
 
   {
     name: "Zodiac killer buddy",
-    image: [p8],
+    image: [p9],
     description:
       "A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. For this i used a simple Node webscraper to get a killer for each zodiac sign. Queries are stored with localStorage.",
     code: "https://github.com/whatthefoobar/zodiac-project",
@@ -115,11 +114,19 @@ const projects: IProject[] = [
   },
   {
     name: "Simple React flashcard app",
-    image: [p12],
+    image: [p10],
     description:
       "A simple flashcard app using React with Typescript for learning some Mandarin phrases.",
     code: "https://github.com/whatthefoobar/react-flashcards",
     preview: "https://react-flashcards-app.netlify.app/",
+  },
+  {
+    name: "Coming soon..",
+    image: [p11],
+    description:
+      "A minimal UI news app built in React with Sanity CMS for content management.",
+    code: "https://github.com/whatthefoobar/news-app-redone",
+    preview: "#",
   },
 ];
 
