@@ -44,7 +44,7 @@ const projects: IProject[] = [
     image: [p4],
     description:
       "A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer",
-    code: "https://github.com/whatthefoobar/ecomm-app-project",
+    code: "https://ecomm-app-project.onrender.com/",
     preview: "https://ecomm-app-project-frontend.onrender.com/",
   },
   {
