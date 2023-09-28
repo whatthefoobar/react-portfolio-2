@@ -1,5 +1,5 @@
-to do:
-- shrink nav menu on small screens
+deployed: on render: https://irina-munteanu-portfolio.onrender.com
+and netlify: https://irina-munteanu-portfolio.netlify.app/
   
 # react-portfolio-2
 updated to react portfolio with typescript built with vite insteadof create-react-app
