@@ -37,7 +37,7 @@ const projects: IProject[] = [
     image: [p3],
     description: "A MERN blog project.",
     code: "https://github.com/whatthefoobar/react-blog",
-    preview: "https://react-blog-frontend.onrender.com/",
+    preview: "https://react-blog-1s9g.onrender.com/",
   },
   {
     name: "MERN shopping app",
