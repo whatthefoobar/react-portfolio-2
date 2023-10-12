@@ -23,9 +23,11 @@ const ProjectCard = ({ project }: IProps) => {
               <button>Code</button>
             </a>
 
-            <a href={preview}>
-              <button>Preview</button>
-            </a>
+            {preview && (
+              <a href={preview}>
+                <button>Preview</button>
+              </a>
+            )}
           </div>
         </div>
       </div>

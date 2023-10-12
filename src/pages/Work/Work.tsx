@@ -126,7 +126,6 @@ const projects: IProject[] = [
     description:
       "A minimal UI news app built in React with Sanity CMS for content management.",
     code: "https://github.com/whatthefoobar/news-app-redone",
-    preview: "#",
   },
 ];
 

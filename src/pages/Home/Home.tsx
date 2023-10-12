@@ -9,8 +9,7 @@ const Home = () => {
         I'M <span>Irina Munteanu Bäck</span>
       </h1>
       <p>
-        Hello! I'm a frontend developer with a stubborn will to learn and a
-        drive to find better solutions for daily coding problems.
+        Frontend Developer - React | TypeScript | Node.js | Redux | MERN Stack
       </p>
       <Link to="/about">
         <button className="btn">About me</button>

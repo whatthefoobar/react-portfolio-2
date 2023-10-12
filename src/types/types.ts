@@ -3,5 +3,5 @@ export interface IProject {
   image: string[];
   description: string;
   code: string;
-  preview: string;
+  preview?: string;
 }
