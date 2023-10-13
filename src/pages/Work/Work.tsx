@@ -19,7 +19,7 @@ const projects: IProject[] = [
     name: "MERN print shop",
     image: [p1],
     description:
-      "A print shop with a cart authentication and checkout option. state management done with redux",
+      "A print shop app with a cart authentication and checkout option. state management done with Redux toolkit. Tech stach: React, Express, Node,MongoDB. ",
     code: "https://github.com/whatthefoobar/galleria_shop",
     preview: "https://galleria-cyy5.onrender.com",
   },
@@ -35,7 +35,8 @@ const projects: IProject[] = [
   {
     name: "Eco sustainability blog",
     image: [p3],
-    description: "A MERN blog project.",
+    description:
+      "A MERN blog project. Fullstack blog app using MongoDB, Express, React, and Node. ",
     code: "https://github.com/whatthefoobar/react-blog",
     preview: "https://react-blog-1s9g.onrender.com/",
   },
@@ -43,7 +44,7 @@ const projects: IProject[] = [
     name: "MERN shopping app",
     image: [p4],
     description:
-      "A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer",
+      "A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer. App done using MongoDB, Express, React, and Node.",
     code: "https://ecomm-app-project.onrender.com/",
     preview: "https://ecomm-app-project-frontend.onrender.com/",
   },
@@ -51,7 +52,7 @@ const projects: IProject[] = [
     name: "Movie app",
     image: [p5],
     description:
-      "A simple react movie rendering app using TheMovieDB api for the data.",
+      "A simple React.js movie rendering app using TheMovieDB Api for the data.",
     code: "https://github.com/whatthefoobar/react-movie-app",
     preview: "https://react-movie-app-tmd.netlify.app/",
   },
@@ -99,7 +100,7 @@ const projects: IProject[] = [
     name: "React portfolio page",
     image: [p8],
     description:
-      "Simple straightforward react portfolio using my favorite color palette.",
+      "Simple straightforward React portfolio using my favorite color palette.",
     code: "https://github.com/whatthefoobar/react-portfolio",
     preview: "https://hi-react-portfolio.netlify.app/",
   },
@@ -108,7 +109,7 @@ const projects: IProject[] = [
     name: "Zodiac killer buddy",
     image: [p9],
     description:
-      "A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. For this i used a simple Node webscraper to get a killer for each zodiac sign. Queries are stored with localStorage.",
+      "A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. For this i used a simple Node webscraper to get a killer for each zodiac sign. Queries are stored with localStorage. Vanilla Javascript app, static files are served by a Node server that also scrapes a database site for data.",
     code: "https://github.com/whatthefoobar/zodiac-project",
     preview: "https://zodiac-killer.onrender.com/",
   },
@@ -124,7 +125,7 @@ const projects: IProject[] = [
     name: "Coming soon..",
     image: [p11],
     description:
-      "A minimal UI news app built in React with Sanity CMS for content management.",
+      "A minimal UI news app built in React and using 2 Apis for data.",
     code: "https://github.com/whatthefoobar/news-app-redone",
   },
 ];
