@@ -109,7 +109,7 @@ const projects: IProject[] = [
     name: "Zodiac killer buddy",
     image: [p9],
     description:
-      "A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. For this i used a simple Node webscraper to get a killer for each zodiac sign. Queries are stored with localStorage. Vanilla Javascript app, static files are served by a Node server that also scrapes a database site for data.",
+      "A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. For this i used a simple Node webscraper to get a killer for each zodiac sign. Vanilla Javascript app, static files are served by a Node server that also scrapes a database site for data.",
     code: "https://github.com/whatthefoobar/zodiac-project",
     preview: "https://zodiac-killer.onrender.com/",
   },
