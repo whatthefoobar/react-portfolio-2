@@ -52,7 +52,7 @@ const projects: IProject[] = [
     name: "Movie app",
     image: [p5],
     description:
-      "A simple React.js movie rendering app using TheMovieDB Api for the data.",
+      "A simple React.js movie app using TheMovieDB Api for the data. You can get the latest popular movies search by keyboard and view movie descriptions.",
     code: "https://github.com/whatthefoobar/react-movie-app",
     preview: "https://react-movie-app-tmd.netlify.app/",
   },
