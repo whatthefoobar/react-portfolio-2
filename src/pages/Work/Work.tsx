@@ -122,10 +122,10 @@ const projects: IProject[] = [
     preview: "https://react-flashcards-app.netlify.app/",
   },
   {
-    name: "Coming soon..",
+    name: "Coming soon: Fullstack News site",
     image: [p11],
     description:
-      "A minimal UI news app built in React and using 2 Apis for data.",
+      "A minimal UI news app built in React and using New York Times API for data. Project built with Typescript React, Node and Redux-toolkit",
     code: "https://github.com/whatthefoobar/news-app-redone",
   },
 ];
