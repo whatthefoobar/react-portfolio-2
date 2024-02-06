@@ -86,8 +86,63 @@ i {
 .right {
   transform: rotateY(90deg);
   left: 80px;
-  /* background-color: #d0b992; */
   background-color: var(--yellow);
   color: #333;
   font-size: 0.8rem;
+}
+@media (min-width: 1201px) {
+  nav {
+    margin-top: 160px;
+  }
+}
+
+@media (max-width: 1200px) {
+  nav {
+    margin-top: 160px;
+  }
+}
+
+@media (max-width: 991px) {
+  nav {
+    margin-top: 230px;
+  }
+  nav ul li {
+    width: 70px;
+  }
+  .center {
+    padding: 20px;
+  }
+  .scene {
+    width: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    margin-top: 230px;
+  }
+  nav ul li {
+    width: 70px;
+  }
+  .center {
+    padding: 19px;
+  }
+  .scene {
+    width: 70px;
+  }
+}
+
+@media (max-width: 420px) {
+  nav {
+    margin-top: 140px;
+  }
+  nav ul li {
+    width: 70px;
+  }
+  .center {
+    padding: 19px;
+  }
+  .scene {
+    width: 70px;
+  }
 }

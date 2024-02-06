@@ -24,6 +24,7 @@
 }
 .card-content {
   height: 270px;
+  height: 100%;
   width: 100%;
   padding: 6px;
   box-sizing: border-box;

@@ -2,7 +2,7 @@
 
 :root {
   /* --yellow: #fff192; */
-  --yellow: #FEDD00;
+  --yellow: #fedd00;
   --dark: #333;
   --white: #fff;
 }
@@ -48,8 +48,8 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 1.2rem;
-  margin-left: 100px;
+  /* padding: 1.2rem; */
+  /* margin-left: 100px; */
 }
 a {
   text-decoration: none;
@@ -178,7 +178,39 @@ header .navbar ul li a:hover {
 
 /* media queries  */
 
+@media (min-width: 1201px) {
+  /* About page */
+  #about {
+    margin-left: 100px;
+    padding: 1.2rem;
+  }
+  /* Skills page */
+  .education {
+    margin-left: 0;
+  }
+  /* work page */
+  #portfolio {
+    margin-left: 100px;
+    padding: 1.2rem;
+  }
+  .portfolio {
+    width: 85%;
+  }
+  /* Contact page */
+  #contact {
+    margin-left: 100px;
+  }
+}
+
 @media (max-width: 1200px) {
+  /* Homepage */
+  #home {
+    margin-left: 70px;
+  }
+  section.home {
+    top: -180px;
+  }
+
   html {
     font-size: 55%;
   }
@@ -186,30 +218,101 @@ header .navbar ul li a:hover {
   .home {
     padding: 1rem 4rem;
   }
+  /* About page */
+  #about {
+    margin-left: 90px;
+  }
+
+  /* work page */
+  #portfolio {
+    margin-left: 100px;
+    padding: 1.2rem;
+  }
+  /* Contact page */
 }
 
 @media (max-width: 991px) {
-  /* header {
-    left: -120%;
-  } */
+  #home {
+    margin-left: 70px;
+  }
+  section.home {
+    top: -160px;
+  }
+  /* About page */
+  #about {
+    margin-left: 70px;
+    padding: 1.2rem;
+  }
+  /* Skills page */
+  .education {
+    margin-left: 50px;
+  }
+
+  /* work page */
+  #portfolio {
+    margin-left: 100px;
+    padding: 1.2rem;
+  }
+  /* Contact page */
+  #contact {
+    margin-left: 80px;
+  }
 }
 
 @media (max-width: 768px) {
   html {
     font-size: 50%;
   }
+  /* Home page */
+  #home h1 {
+    font-size: 3.5rem;
+  }
+  #home h3 {
+    font-size: 2rem;
+  }
+  #home {
+    margin-left: 70px;
+  }
+  section.home {
+    top: 0px;
+  }
+  /* About page */
+  #about {
+    margin-left: 50px;
+  }
+  /* work page */
+  #portfolio {
+    margin-left: 80px;
+    padding: 1.2rem;
+  }
+  /* Contact page */
+  #contact {
+    margin-left: 70px;
+  }
 }
 
-@media (max-width: 400px) {
-  .home {
-    /* padding: 0 10rem; */
+@media (max-width: 420px) {
+  /* Home page */
+  #home h1 {
+    font-size: 3.5rem;
   }
+  #home h3 {
+    font-size: 2rem;
+  }
+  #home {
+    margin-left: 70px;
+  }
+
   header {
     width: 60vw;
   }
 
   .heading {
     margin: 0 3rem;
+  }
+  /* About page */
+  #about {
+    margin-left: 70px;
   }
   .about .image img {
     width: 250px;
@@ -218,10 +321,24 @@ header .navbar ul li a:hover {
   .education .box-container .box {
     width: 100%;
   }
+  /* Skills page */
+  .education {
+    margin-left: 20px;
+  }
+
+  /* work page */
+  #portfolio {
+    margin-left: 70px;
+  }
+
+  .portfolio .box-container {
+    padding: 0;
+  }
 
   .portfolio .box-container .box {
     width: 100%;
   }
+  /* Contact page */
 
   .contact .row form {
     margin: 3rem 0;

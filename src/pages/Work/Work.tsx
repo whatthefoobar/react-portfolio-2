@@ -132,7 +132,7 @@ const projects: IProject[] = [
 
 const Work = () => {
   return (
-    <section id="portfolio" className="portfolio container">
+    <section id="portfolio" className="portfolio">
       <h1 className="heading">
         my <span>portfolio</span>
       </h1>

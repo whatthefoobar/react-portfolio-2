@@ -5,7 +5,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <section className="education container">
+    <section className="education ">
       <h1 className="heading">
         my <span>Skills</span>
       </h1>

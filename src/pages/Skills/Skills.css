@@ -1,3 +1,6 @@
+.education {
+  max-width: 1300px;
+}
 .education .box-container {
   display: flex;
   /* align-items: center; */
