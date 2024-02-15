@@ -44,7 +44,7 @@ const projects: IProject[] = [
     name: "MERN shopping app",
     image: [p4],
     description:
-      "A straight forward e-commerce webstite with a cart authentication and checkout option. state management done with useContext and useReducer. App done using MongoDB, Express, React, and Node.",
+      "A straight forward e-commerce webstite with a cart authentication and checkout option. State management done with useContext and useReducer. App done using MongoDB, Express, React, and Node.",
     code: "https://ecomm-app-project.onrender.com/",
     preview: "https://ecomm-app-project-frontend.onrender.com/",
   },
@@ -52,9 +52,9 @@ const projects: IProject[] = [
     name: "Movie app",
     image: [p5],
     description:
-      "A simple React.js movie app using TheMovieDB Api for the data. You can get the latest popular movies search by keyboard and view movie descriptions.",
+      "A fullstack React.js with Typescript and redux-toolkit movie app. The backend is written in Node with Typescript  You can get the latest popular movies search by keyboard and view movie descriptions.",
     code: "https://github.com/whatthefoobar/react-movie-app",
-    preview: "https://react-movie-app-tmd.netlify.app/",
+    preview: "react-movie-app-op9b.onrender.com",
   },
   // {
   //   name: "50 projects gallery",
