@@ -190,12 +190,12 @@ header .navbar ul li a:hover {
   }
   /* work page */
   #portfolio {
-    margin-left: 100px;
-    padding: 1.2rem;
+    /* margin-left: 100px; */
+    padding: 2rem;
   }
-  .portfolio {
+  /* .portfolio {
     width: 85%;
-  }
+  } */
   /* Contact page */
   #contact {
     margin-left: 100px;
@@ -225,8 +225,8 @@ header .navbar ul li a:hover {
 
   /* work page */
   #portfolio {
-    margin-left: 100px;
-    padding: 1.2rem;
+    /* margin-left: 100px; */
+    padding: 2rem;
   }
   /* Contact page */
 }
@@ -250,8 +250,8 @@ header .navbar ul li a:hover {
 
   /* work page */
   #portfolio {
-    margin-left: 100px;
-    padding: 1.2rem;
+    /* margin-left: 100px; */
+    padding: 2rem;
   }
   /* Contact page */
   #contact {
@@ -282,7 +282,7 @@ header .navbar ul li a:hover {
   }
   /* work page */
   #portfolio {
-    margin-left: 80px;
+    /* margin-left: 80px; */
     padding: 1.2rem;
   }
   /* Contact page */
@@ -327,9 +327,6 @@ header .navbar ul li a:hover {
   }
 
   /* work page */
-  #portfolio {
-    margin-left: 70px;
-  }
 
   .portfolio .box-container {
     padding: 0;
