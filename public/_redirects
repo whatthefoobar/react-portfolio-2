@@ -1,0 +1,7 @@
+# Redirects from what the browser requests to what we serve
+
+https://irina-munteanu-portfolio.netlify.app/ /
+https://irina-munteanu-portfolio.netlify.app/about /about
+https://irina-munteanu-portfolio.netlify.app/skills /skills  
+https://irina-munteanu-portfolio.netlify.app/work /work
+https://irina-munteanu-portfolio.netlify.app/contact /contact
