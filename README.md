@@ -1,3 +1,6 @@
+TODO:
+- Redo portfolio with next.js
+
 deployed: on render: https://irina-munteanu-portfolio.onrender.com
 and netlify: https://irina-munteanu-portfolio.netlify.app/
   
