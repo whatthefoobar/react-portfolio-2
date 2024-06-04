@@ -15,6 +15,15 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { IProject } from "../../types/types";
 
 const projects: IProject[] = [
+   {
+    name: "In progress: Fullstack News site",
+    image: [p11],
+    description:
+      "A minimal UI news app built in React and using New York Times API for data. Project built with Typescript React, Node and Redux-toolkit",
+    code: "https://github.com/whatthefoobar/news-app-redone",
+    preview: "https://news-app-redone-client.vercel.app/",
+    
+  },
   {
     name: "MERN print shop",
     image: [p1],
@@ -121,13 +130,7 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/react-flashcards",
     preview: "https://react-flashcards-app.netlify.app/",
   },
-  {
-    name: "Coming soon: Fullstack News site",
-    image: [p11],
-    description:
-      "A minimal UI news app built in React and using New York Times API for data. Project built with Typescript React, Node and Redux-toolkit",
-    code: "https://github.com/whatthefoobar/news-app-redone",
-  },
+ 
 ];
 
 const Work = () => {
