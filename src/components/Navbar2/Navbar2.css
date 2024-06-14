@@ -26,5 +26,6 @@
 @media (max-width: 700px) {
   .navbar-list {
     flex-direction: column;
+    gap: 10px;
   }
 }

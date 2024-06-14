@@ -5,6 +5,7 @@
   --yellow: #fedd00;
   --dark: #333;
   --white: #fff;
+  --offwhhite: #efefef;
 }
 
 * {
@@ -163,6 +164,7 @@ header .navbar ul li a:hover {
 .container {
   width: 85%;
   max-width: 1300px;
+  margin: 0 auto;
 }
 
 .top {

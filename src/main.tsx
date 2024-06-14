@@ -13,13 +13,14 @@ import About from "./pages/About/About.tsx";
 import Contact from "./pages/Contact/Contact.tsx";
 import Skills from "./pages/Skills/Skills.tsx";
 import Work from "./pages/Work/Work.tsx";
+import Contact2 from "./pages/Contact2/Contact2.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contact" element={<Contact2 />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/work" element={<Work />} />
     </Route>
