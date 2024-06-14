@@ -1,3 +1,7 @@
+:root {
+  --offwhhite: #efefef;
+}
+
 .contactSection {
   padding: 10rem 0;
   text-align: center;
@@ -43,7 +47,7 @@
 }
 
 .contact__box {
-  background-color: #efefef;
+  background-color: var(--offwhhite);
   padding: 1rem;
   border-radius: 8px;
   text-align: left;
@@ -53,14 +57,14 @@
   gap: 10px;
 }
 
-.box a {
+.contact__box a {
   display: flex;
   align-items: center;
   color: var(--dark);
   text-decoration: none;
 }
 
-.box h3 {
+.contact__box h3 {
   margin-left: 1rem;
   font-size: 1.2rem;
 }
@@ -71,7 +75,6 @@
 
 .contactForm {
   /* background-color: var(--dark); */
-  /* background-color: #efefef; */
   padding: 2rem;
   border-radius: 8px;
 }
@@ -82,6 +85,7 @@
   margin-bottom: 0.5rem;
   color: var(--dark);
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .contactForm input,
@@ -92,7 +96,8 @@
   /* border: 1px solid var(--dark); */
   border-radius: 4px;
   /* background-color: var(--dark); */
-  background-color: #efefef;
+  background-color: var(--offwhhite);
+
   color: var(--dark);
 }
 
@@ -107,6 +112,8 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {

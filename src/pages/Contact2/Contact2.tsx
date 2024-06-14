@@ -15,6 +15,9 @@ const Contact2: React.FC = () => {
           <p>Get in touch</p>
         </div>
         <div className="contactSection__wrapper">
+          <div className="right">
+            <ContactForm />
+          </div>
           <div className="left">
             <div className="contact__box">
               <a href="https://github.com/whatthefoobar">
@@ -36,9 +39,6 @@ const Contact2: React.FC = () => {
                 <h3>LinkedIn</h3>
               </a>
             </div>
-          </div>
-          <div className="right">
-            <ContactForm />
           </div>
         </div>
       </div>
