@@ -104,14 +104,14 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/portfolio-landing-page",
     preview: "https://hi-portfolio-page.netlify.app/",
   },
-  {
-    name: "React portfolio page",
-    image: [p8],
-    description:
-      "A straightforward React portfolio using my favorite color palette.",
-    code: "https://github.com/whatthefoobar/react-portfolio",
-    preview: "https://hi-react-portfolio.netlify.app/",
-  },
+  // {
+  //   name: "React portfolio page",
+  //   image: [p8],
+  //   description:
+  //     "A straightforward React portfolio using my favorite color palette.",
+  //   code: "https://github.com/whatthefoobar/react-portfolio",
+  //   preview: "https://hi-react-portfolio.netlify.app/",
+  // },
 
   {
     name: "Zodiac killer buddy",
