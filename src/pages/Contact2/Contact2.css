@@ -3,13 +3,7 @@
 }
 
 .contact {
-  /* padding: 10rem 0; */
   text-align: center;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .section-title {
@@ -26,7 +20,7 @@
   color: var(--dark);
 }
 
-.contact-wrapper {
+.contact__wrapper {
   display: flex;
   gap: 5rem;
   justify-content: center;
@@ -47,19 +41,19 @@
   gap: 2rem;
 }
 
-.contact-box {
+.contact__box {
   background-color: var(--offwhhite);
   padding: 1rem;
   border-radius: 8px;
   text-align: left;
 }
-.contact-box a {
+.contact__box a {
   display: flex;
   gap: 10px;
   font-size: 1.5rem;
 }
 
-.contact-box a {
+.contact__box a {
   display: flex;
   align-items: center;
   color: var(--dark);
@@ -71,17 +65,17 @@
   font-size: 1.2rem;
 }
 
-.contact-social {
+.contact__social {
   font-size: 2rem;
 }
 
-.contactForm {
+.contact__form {
   /* background-color: var(--dark); */
   padding: 2rem;
   border-radius: 8px;
 }
 
-.contactForm label {
+.contact__form label {
   text-align: left;
   display: block;
   margin-bottom: 0.5rem;
@@ -90,24 +84,21 @@
   font-size: 1.5rem;
 }
 
-.contactForm input,
-.contactForm textarea {
+.contact__form input,
+.contact__form textarea {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
-  /* border: 1px solid var(--dark); */
   border-radius: 4px;
-  /* background-color: var(--dark); */
   background-color: var(--offwhhite);
-
   color: var(--dark);
 }
 
-.contactForm textarea {
+.contact__form textarea {
   min-height: 200px;
 }
 
-.contactForm button {
+.contact__form button {
   background-color: var(--yellow);
   color: var(--dark);
   padding: 0.75rem 2rem;
@@ -119,7 +110,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .contactSection__wrapper {
+  .contact__wrapper {
     flex-direction: column;
     align-items: center;
   }

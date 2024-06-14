@@ -15,14 +15,13 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { IProject } from "../../types/types";
 
 const projects: IProject[] = [
-   {
-    name: "In progress: Fullstack News site",
+  {
+    name: "Fullstack News site",
     image: [p11],
     description:
-      "A minimal UI news app built in React and using New York Times API for data. Project built with Typescript React, Node and Redux-toolkit",
+      "A minimal UI news app built in React and using New York Times API for data. Project built with Typescript React and Redux-toolkit for the frontend, and Node for the backend (used to better hide api keys)",
     code: "https://github.com/whatthefoobar/news-app-redone",
     preview: "https://news-app-redone-client.vercel.app/",
-    
   },
   {
     name: "MERN print shop",
@@ -101,7 +100,7 @@ const projects: IProject[] = [
     name: "Portfolio page",
     image: [p7],
     description:
-      "A simple vanilla JS portfolio page using tabs to navigate from section to section",
+      "A vanilla JS portfolio page using tabs to navigate from section to section",
     code: "https://github.com/whatthefoobar/portfolio-landing-page",
     preview: "https://hi-portfolio-page.netlify.app/",
   },
@@ -109,7 +108,7 @@ const projects: IProject[] = [
     name: "React portfolio page",
     image: [p8],
     description:
-      "Simple straightforward React portfolio using my favorite color palette.",
+      "A straightforward React portfolio using my favorite color palette.",
     code: "https://github.com/whatthefoobar/react-portfolio",
     preview: "https://hi-react-portfolio.netlify.app/",
   },
@@ -123,14 +122,13 @@ const projects: IProject[] = [
     preview: "https://zodiac-killer.onrender.com/",
   },
   {
-    name: "Simple React flashcard app",
+    name: "React flashcard app",
     image: [p10],
     description:
-      "A simple flashcard app using React with Typescript for learning some Mandarin phrases.",
+      "A flashcard app using React with Typescript for learning some Mandarin phrases.",
     code: "https://github.com/whatthefoobar/react-flashcards",
     preview: "https://react-flashcards-app.netlify.app/",
   },
- 
 ];
 
 const Work = () => {
@@ -140,7 +138,7 @@ const Work = () => {
         my <span>portfolio</span>
       </h1>
 
-      <div className="box-container">
+      <div className="box__container">
         {projects.map((project: IProject, index: number) => (
           <ProjectCard project={project} key={index} />
         ))}

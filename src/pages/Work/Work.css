@@ -1,17 +1,16 @@
-.portfolio .box-container {
+.portfolio .box__container {
   margin: 40px auto 0 auto;
-  /* padding: 0 20px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
 }
 
-.portfolio .box-container .box img {
+.portfolio .box__container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.portfolio .box-container .box:hover img {
+.portfolio .box__container .box:hover img {
   transform: scale(1.1);
 }

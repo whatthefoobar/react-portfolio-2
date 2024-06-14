@@ -1,7 +1,7 @@
 .education {
   max-width: 1300px;
 }
-.education .box-container {
+.education .box__container {
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -11,7 +11,7 @@
   /* padding-left: 3rem; */
 }
 
-.education .box-container .box {
+.education .box__container .box {
   width: 27rem;
   margin: 4rem 1rem;
   padding-left: 4rem;
@@ -20,7 +20,7 @@
   /* border: 2px solid red; */
 }
 
-.education .box-container .box span {
+.education .box__container .box span {
   font-size: 1.8rem;
   background: #222;
   color: #fff;
@@ -28,13 +28,13 @@
   padding: 0.5rem 2.5rem;
 }
 
-.education .box-container .box h3 {
+.education .box__container .box h3 {
   font-size: 2rem;
   color: #fff;
   padding-top: 1.5rem;
 }
 
-.skills-icon {
+.skills__icon {
   position: absolute;
   top: -1.5rem;
   left: -2.5rem;
@@ -48,7 +48,7 @@
   padding: 5px;
   background: var(--yellow);
 }
-.box-container .box ul li {
+.box__container .box ul li {
   font-size: 1.8rem;
   list-style: none;
   font-weight: bold;

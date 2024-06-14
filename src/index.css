@@ -49,8 +49,6 @@ body {
 
 section {
   min-height: 100vh;
-  /* padding: 1.2rem; */
-  /* margin-left: 100px; */
 }
 a {
   text-decoration: none;
@@ -105,62 +103,6 @@ a {
   padding: 3px 7px;
 }
 
-/*header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  height: 100%;
-  width: 35rem;
-  background: #1a1a1a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  text-align: center;
-}
-
-header .user img {
-  height: 17rem;
-  width: 17rem;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  border: 0.7rem solid var(--yellow);
-}
-
-header .user .name {
-  font-size: 3.5rem;
-  color: var(--dark);
-}
-
-header .user .post {
-  font-size: 2rem;
-  color: var(--dark);
-}
-
-header .navbar {
-  width: 100%;
-}
-
-header .navbar ul {
-  list-style: none;
-  padding: 1rem 3rem;
-}
-
-header .navbar ul li a {
-  display: block;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  background: #333;
-  color: #fff;
-  font-size: 2rem;
-  border-radius: 5rem;
-}
-
-header .navbar ul li a:hover {
-  background: var(--yellow);
-} */
 .container {
   width: 85%;
   max-width: 1300px;
@@ -320,7 +262,7 @@ header .navbar ul li a:hover {
     width: 250px;
   }
 
-  .education .box-container .box {
+  .education .box__container .box {
     width: 100%;
   }
   /* Skills page */
@@ -330,11 +272,11 @@ header .navbar ul li a:hover {
 
   /* work page */
 
-  .portfolio .box-container {
+  .portfolio .box__container {
     padding: 0;
   }
 
-  .portfolio .box-container .box {
+  .portfolio .box__container .box {
     width: 100%;
   }
   /* Contact page */

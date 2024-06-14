@@ -10,9 +10,9 @@ const Skills = () => {
         my <span>Skills</span>
       </h1>
 
-      <div className="box-container">
+      <div className="box__container">
         <div className="box">
-          <RiCodeBoxFill className="skills-icon" />
+          <RiCodeBoxFill className="skills__icon" />
           <span>Development</span>
           <h3>Front End Development</h3>
           <ul>
@@ -30,7 +30,7 @@ const Skills = () => {
         </div>
 
         <div className="box">
-          <FaTools className="skills-icon" />
+          <FaTools className="skills__icon" />
           <span>Tools</span>
           <h3>Tools</h3>
           <ul>
@@ -46,7 +46,7 @@ const Skills = () => {
         </div>
 
         <div className="box">
-          <HiUserGroup className="skills-icon" />
+          <HiUserGroup className="skills__icon" />
           <span>Soft Skills</span>
           <h3>Front End Development</h3>
           <ul>

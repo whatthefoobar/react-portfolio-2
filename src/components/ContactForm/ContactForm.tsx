@@ -12,7 +12,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="contactForm">
+    <form onSubmit={handleSubmit} className="contact__form">
       <div>
         <label htmlFor="name">Name</label>
         <input
