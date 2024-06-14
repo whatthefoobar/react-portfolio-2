@@ -2,8 +2,8 @@
   --offwhhite: #efefef;
 }
 
-.contactSection {
-  padding: 10rem 0;
+.contact {
+  /* padding: 10rem 0; */
   text-align: center;
 }
 
@@ -12,25 +12,26 @@
   margin: 0 auto;
 }
 
-.sectionTitle {
+.section-title {
   margin-bottom: 5rem;
 }
 
-.sectionTitle h2 {
+.section-title h2 {
   font-size: 3rem;
   color: var(--dark);
 }
 
-.sectionTitle p {
+.section-title p {
   font-size: 1.2rem;
   color: var(--dark);
 }
 
-.contactSection__wrapper {
+.contact-wrapper {
   display: flex;
   gap: 5rem;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 1rem 0;
 }
 
 .left,
@@ -46,18 +47,19 @@
   gap: 2rem;
 }
 
-.contact__box {
+.contact-box {
   background-color: var(--offwhhite);
   padding: 1rem;
   border-radius: 8px;
   text-align: left;
 }
-.contact__box a {
+.contact-box a {
   display: flex;
   gap: 10px;
+  font-size: 1.5rem;
 }
 
-.contact__box a {
+.contact-box a {
   display: flex;
   align-items: center;
   color: var(--dark);
