@@ -36,17 +36,21 @@
   min-width: 300px;
 }
 
-.info {
+.left {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.box {
+.contact__box {
   background-color: #efefef;
   padding: 1rem;
   border-radius: 8px;
   text-align: left;
+}
+.contact__box a {
+  display: flex;
+  gap: 10px;
 }
 
 .box a {
