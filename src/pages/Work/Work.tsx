@@ -6,7 +6,6 @@ import p4 from "../../assets/img/p4.png";
 import p5 from "../../assets/img/p5.png";
 import p6 from "../../assets/img/p6.jpg";
 import p7 from "../../assets/img/p7.png";
-// import p8 from "../../assets/img/p8.png";
 import p9 from "../../assets/img/p9.jpg";
 import p10 from "../../assets/img/p10.png";
 import p11 from "../../assets/img/p11.png";
@@ -58,14 +57,14 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/react-movie-app",
     preview: "https://react-movie-app-op9b.onrender.com",
   },
-    {
-    name: "React news app",
-    image: [p2],
-    description:
-      "React news app project using New York Times Api. My first real chance to apply my React skills and navigate using a public API in the context of React.",
-    code: "https://github.com/whatthefoobar/hi-react-news-app",
-    preview: "https://news-app-react-hi-project.netlify.app",
-  },
+  //  {
+   // name: "React news app",
+  //  image: [p2],
+//    description:
+  //    "React news app project using New York Times Api. My first real chance to apply my React skills and navigate using a public API in the context of React.",
+  //  code: "https://github.com/whatthefoobar/hi-react-news-app",
+  // preview: "https://news-app-react-hi-project.netlify.app",
+  //},
   // {
   //   name: "50 projects gallery",
   //   image: [p4],
@@ -75,21 +74,7 @@ const projects: IProject[] = [
   //   preview: "https://50dayofcode-project-gallery.netlify.app/",
   // },
   // {
-  //   name: "LinkedIn clone",
-  //   image: [p5],
-  //   description:
-  //     " A simplified Linkedin clone using React, Redux, MUI icons and Firebase for authentication and database.",
-  //   code: "https://github.com/whatthefoobar/react-linkedin-clone",
-  //   preview: "https://linkedin-clone-8fbcd.web.app/",
-  // },
-  // {
-  //   name: "Gmail Clone",
-  //   image: [p6],
-  //   description:
-  //     " A simplified Google clone using React, Redux, MUI icons and Firebase for authentication and database.",
-  //   code: "https://github.com/whatthefoobar/react-gmail-clone",
-  //   preview: "https://clone-174af.web.app",
-  // },
+
   {
     name: "RPG Caves game",
     image: [p6],
