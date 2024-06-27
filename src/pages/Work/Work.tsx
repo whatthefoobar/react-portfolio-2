@@ -1,6 +1,5 @@
 import "./Work.css";
 import p1 from "../../assets/img/p1.png";
-//import p2 from "../../assets/img/p2.png";
 import p3 from "../../assets/img/p3.png";
 import p4 from "../../assets/img/p4.png";
 import p5 from "../../assets/img/p5.png";
@@ -91,14 +90,6 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/portfolio-landing-page",
     preview: "https://hi-portfolio-page.netlify.app/",
   },
-  // {
-  //   name: "React portfolio page",
-  //   image: [p8],
-  //   description:
-  //     "A straightforward React portfolio using my favorite color palette.",
-  //   code: "https://github.com/whatthefoobar/react-portfolio",
-  //   preview: "https://hi-react-portfolio.netlify.app/",
-  // },
 
   {
     name: "Zodiac killer buddy",
