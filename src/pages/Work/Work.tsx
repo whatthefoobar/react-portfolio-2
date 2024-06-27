@@ -23,6 +23,14 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/news-app-redone",
     preview: "https://news-app-redone-client.vercel.app/",
   },
+    {
+    name: "Eco sustainability blog",
+    image: [p3],
+    description:
+      "A MERN blog project. Fullstack blog app using MongoDB, Express, React, and Node. ",
+    code: "https://github.com/whatthefoobar/react-blog",
+    preview: "https://react-blog-1s9g.onrender.com/",
+  },
   {
     name: "MERN print shop",
     image: [p1],
@@ -32,22 +40,8 @@ const projects: IProject[] = [
     preview: "https://galleria-cyy5.onrender.com",
   },
 
-  {
-    name: "React news app",
-    image: [p2],
-    description:
-      "React news app project using New York Times Api. My first real chance to apply my React skills and navigate using a public API in the context of React.",
-    code: "https://github.com/whatthefoobar/hi-react-news-app",
-    preview: "https://news-app-react-hi-project.netlify.app",
-  },
-  {
-    name: "Eco sustainability blog",
-    image: [p3],
-    description:
-      "A MERN blog project. Fullstack blog app using MongoDB, Express, React, and Node. ",
-    code: "https://github.com/whatthefoobar/react-blog",
-    preview: "https://react-blog-1s9g.onrender.com/",
-  },
+
+
   {
     name: "MERN shopping app",
     image: [p4],
@@ -63,6 +57,14 @@ const projects: IProject[] = [
       "A fullstack React.js with Typescript and redux-toolkit movie app. The backend is written in Node with Typescript  You can get the latest popular movies search by keyboard and view movie descriptions.",
     code: "https://github.com/whatthefoobar/react-movie-app",
     preview: "https://react-movie-app-op9b.onrender.com",
+  },
+    {
+    name: "React news app",
+    image: [p2],
+    description:
+      "React news app project using New York Times Api. My first real chance to apply my React skills and navigate using a public API in the context of React.",
+    code: "https://github.com/whatthefoobar/hi-react-news-app",
+    preview: "https://news-app-react-hi-project.netlify.app",
   },
   // {
   //   name: "50 projects gallery",
