@@ -21,7 +21,7 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/news-app-redone",
     preview: "https://news-app-redone-client.vercel.app/",
   },
-    {
+  {
     name: "Eco sustainability blog",
     image: [p3],
     description:
@@ -37,8 +37,6 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/galleria_shop",
     preview: "https://galleria-cyy5.onrender.com",
   },
-
-
 
   {
     name: "MERN shopping app",
@@ -57,9 +55,9 @@ const projects: IProject[] = [
     preview: "https://react-movie-app-op9b.onrender.com",
   },
   //  {
-   // name: "React news app",
+  // name: "React news app",
   //  image: [p2],
-//    description:
+  //    description:
   //    "React news app project using New York Times Api. My first real chance to apply my React skills and navigate using a public API in the context of React.",
   //  code: "https://github.com/whatthefoobar/hi-react-news-app",
   // preview: "https://news-app-react-hi-project.netlify.app",
@@ -95,7 +93,7 @@ const projects: IProject[] = [
     name: "Zodiac killer buddy",
     image: [p9],
     description:
-      "A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. For this i used a simple Node webscraper to get a killer for each zodiac sign. Vanilla Javascript app, static files are served by a Node server that also scrapes a database site for data.",
+      "A form that takes in your birthday and returns a serial killer with the same zodiac sign as you. I used a Node webscraper to get a killer for each zodiac sign. Static files are served by a Node server that also scrapes a database site for data.",
     code: "https://github.com/whatthefoobar/zodiac-project",
     preview: "https://zodiac-killer.onrender.com/",
   },
