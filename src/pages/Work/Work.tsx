@@ -38,14 +38,7 @@ const projects: IProject[] = [
     preview: "https://galleria-cyy5.onrender.com",
   },
 
-  {
-    name: "MERN shopping app",
-    image: [p4],
-    description:
-      "A straight forward e-commerce webstite with a cart authentication and checkout option. State management done with useContext and useReducer. App done using MongoDB, Express, React, and Node.",
-    code: "https://github.com/whatthefoobar/ecomm-app-project",
-    preview: "https://ecomm-app-project.onrender.com",
-  },
+
   {
     name: "Movie app",
     image: [p5],
@@ -54,23 +47,7 @@ const projects: IProject[] = [
     code: "https://github.com/whatthefoobar/react-movie-app",
     preview: "https://react-movie-app-op9b.onrender.com",
   },
-  //  {
-  // name: "React news app",
-  //  image: [p2],
-  //    description:
-  //    "React news app project using New York Times Api. My first real chance to apply my React skills and navigate using a public API in the context of React.",
-  //  code: "https://github.com/whatthefoobar/hi-react-news-app",
-  // preview: "https://news-app-react-hi-project.netlify.app",
-  //},
-  // {
-  //   name: "50 projects gallery",
-  //   image: [p4],
-  //   description:
-  //     "A personal challenge to code a small project everyday for 50 days. Requirements can useCSS HTML and JavaScript, animations and optionally libraries.",
-  //   code: "https://github.com/whatthefoobar/50daysofcode-project-gallery",
-  //   preview: "https://50dayofcode-project-gallery.netlify.app/",
-  // },
-  // {
+
 
   {
     name: "RPG Caves game",
