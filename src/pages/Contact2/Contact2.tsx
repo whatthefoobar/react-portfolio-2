@@ -33,7 +33,7 @@ const Contact2: React.FC = () => {
             </div>
 
             <div className="contact__box">
-              <a href="https://www.linkedin.com/in/irina-munteanu-b%C3%A4ck-523a41b4/">
+              <a href="https://www.linkedin.com/in/irina-back/">
                 <BsLinkedin className="contact-social" />
                 <h3>LinkedIn</h3>
               </a>
